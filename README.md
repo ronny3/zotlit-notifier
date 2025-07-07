@@ -4,4 +4,5 @@ The original plugin is [not yet adapted](https://zotlit.aidenlx.top/getting-star
 
 # aaaaaaaaaa
 
-zip -r build/custom-zotlit-0.1.VERNUM.xpi src
+cd src
+zip -r ../build/custom-zotlit-0.1.1.xpi .
