@@ -3,11 +3,11 @@
 	"name": "Custom Zotlit Notifier",
 	"version": "0.1",
 	"description": "Notifies zotlit in obsidian about tab and annotation changes",
-	"homepage_url": "https://github.com/Faibk/zotlit-notifier",
+	"homepage_url": "https://github.com/ronny3/zotlit-notifier",
 	"applications": {
 		"zotero": {
 			"id": "zotlit-notifier@faibk.github.io",
-			"update_url": "https://github.com/Faibk/zotlit-notifier/blob/master/update.json",
+			"update_url": "https://github.com/ronny3/zotlit-notifier/blob/master/update.json",
 			"strict_min_version": "6.999",
 			"strict_max_version": "7.0.*"
 		}

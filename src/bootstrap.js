@@ -26,7 +26,12 @@ async function startup({ id, version, rootURI }) {
 
 function shutdown() {
 	log("Shutting down");
-	Zotero.Notifier.unregisterObserver(this._notifierID);
+	if (notifier._notifierID) {
+		Zotero.Notifier.unregisterObserver(notifier._notifierID);
+	}
+	if (notifier && notifier.cleanup) {
+		notifier.cleanup();
+	}
 }
 
 function uninstall() {
