@@ -2,12 +2,8 @@
 callout: false
 ---
 
-Page <%= it.pageLabel %>
-
-<%= it.imgEmbed %><%= it.text %>
-<% if (it.comment) { %>
----
-<%= it.comment %>
+<%= it.imgEmbed %>- ==<%= it.text %>== [p.<%= it.pageLabel %>](<%= it.backlink %>)
+<% if (it.comment) { %><%= it.commentMd %>
 <% } %>
 
 
