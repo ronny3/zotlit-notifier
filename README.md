@@ -4,5 +4,9 @@ The original plugin is [not yet adapted](https://zotlit.aidenlx.top/getting-star
 
 # aaaaaaaaaa
 
+src kansiossa filut
+simple as fak
+alla millä build
+
 cd src
 zip -r ../build/custom-zotlit-0.1.1.xpi .
